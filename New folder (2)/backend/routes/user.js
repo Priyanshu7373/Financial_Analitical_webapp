@@ -1,0 +1,11 @@
+import express from "express";
+import {login,register,logout,editprofile,getprofile} from "../controller/user.js";
+import mongoose from "mongoose";
+import { auth } from "../middleware/authentication.js";
+const router=express.Router();
+router.post('/login',login);
+router.post('/register',register);
+router.post('/logout',logout);
+router.post('/editprofile',auth,editprofile);
+router.post('/getprofile',auth,getprofile);
+export default router;

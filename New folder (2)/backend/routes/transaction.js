@@ -1,0 +1,13 @@
+import express from "express";
+import {withdrawl,deposit,getwithdrawl,getdeposit,loan_given,loan_taken,viewloan} from "../controller/transaction.js";
+import { auth } from "../middleware/authentication.js";
+import mongoose from "mongoose";
+const router=express.Router();
+router.post('/withdrawl',auth,withdrawl);
+router.post('/deposit',auth,deposit);
+router.get('/getwithdrawl',auth,getwithdrawl);
+router.get('/getdeposit',auth,getdeposit);
+router.post('/loan_given',auth,loan_given);
+router.post('/loan_taken',auth,loan_taken);
+router.get('/viewloan',auth,viewloan);
+export default router;

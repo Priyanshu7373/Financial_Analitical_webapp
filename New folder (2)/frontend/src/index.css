@@ -1,0 +1,309 @@
+body{
+  background-color: #e7e4f5;
+}
+.navbar{
+  background-color: #7206d8 !important;
+  color: white !important;
+  height: 25vh;
+}
+.container-fluid{
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.navbar a{
+  color: white !important;
+}
+.dropdown-menu a{
+  color: rgb(26, 12, 12) !important;
+}
+.Avatar{
+  height: 100%;
+    width: 50px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    color: #ab77dc !important;
+    font-weight: bold;
+
+}
+.nav-item
+{
+  margin-left: 20px;
+}
+ul
+{
+  align-items: center;
+}
+.container__1
+{
+  margin-top: -3%;
+  z-index: 2;
+  position: relative;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.row1
+{
+  /* margin-top: 10px; */
+   height: 74%;
+   width: 17%;
+   padding: 1%;
+   margin-right: 3%;
+  }
+  .row2
+  {
+  /* margin-top: 10px; */
+   height: 100%;
+   width: 50%;
+}
+.row3
+{
+  /* margin-top: 10px; */
+   height: 100%;
+   width: 23%;
+   margin-left: 3%;
+}
+.rows
+{
+background-color: white;
+}
+.row1 h4
+{
+  font-size: 1.2rem;
+  margin-bottom: 5%;
+}
+.text_1
+{
+  font-size: x-small;
+  /* word-spacing: 0.1em;
+  letter-spacing: .6px; */
+}
+.options__
+{
+margin-top: 10%;
+}
+.options__ ul
+{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  width: 112%;
+  flex-wrap: wrap;
+  padding: 0px;
+  /* justify-content: space-between; */
+}
+.rightWale
+{
+  text-align: center;
+    width: 15vh;
+    height: 13vh;
+    border-right: #2800a0 solid 0.2px;
+    border-bottom: #2800a0 solid 0.2px;
+    padding-top: 13px;
+}
+.leftWale
+{
+  text-align: center;
+    width: 15vh;
+    height: 13vh;
+    border-left: #2800a0 solid 0.2px;
+    border-bottom: #2800a0 solid 0.2px;
+    padding-top: 13px;
+}
+.options__ img
+{
+  height: 24px;
+  width: 24px;
+  margin-bottom: 10%;
+}
+.test__1
+{
+  font-size: x-small;
+}
+.leftWale1
+{
+  width: 13vh;
+  padding-left: 15px;
+  padding-top: 6px;
+}
+.rightWale1
+{
+  /* width: 13vh; */
+  padding-right: 15px;
+  padding-top: 6px;
+}
+.leftWale2,.rightWale2
+{
+  border-bottom: none;
+}
+.content__
+{
+  text-align: justify;
+}
+.button1__
+{
+  margin-top: 8%;
+    border: none;
+    color: white;
+    position: relative;
+    background: #7206d8;
+    left: 30%;
+    font-size: small;
+    height: 35px;
+    width: 100px;
+}
+.row2
+{
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.Wform
+{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 55vh;
+}
+.withdraw_form
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 5%;
+}
+ .content__2 h1{
+  font-size: 1.5rem;
+}
+.in_container1
+{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* width: 223%; */
+}
+.in_container1 input
+{
+  display: block;
+  width: 100%;
+}
+.in_container1 label
+{
+  display: block;
+  font-size: .7rem;
+    font-weight: 600;
+    margin-bottom:3%
+}
+.in_container1 div
+{
+  width: 49%;
+  margin-bottom: 3%;
+}
+::placeholder { 
+  font-size: 0.7rem;
+  opacity: 1; 
+}
+.content__2
+{
+      /* margin-left: 4%; */
+      margin-top: 2%;
+      text-align: center;
+}
+.common__
+{
+  height: 35%;
+  width: 100%;
+}
+.options__2
+{
+  margin:6%;
+  /* margin-top: 12%; */
+}
+.options__2
+{
+  font-size: medium;
+  /* margin-top: 12%; */
+}
+.rt1
+{
+  font-size: .8rem;
+}
+.rt2
+{
+  border: black solid 1px;
+  height: 138px;
+}
+.recent_transactions
+{
+  margin:5%;
+  margin-top: 8%;
+}
+.options__2 h6{
+  font-size: .8rem;
+}
+.uni
+{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+.common__2
+{
+  height: 12vh;
+    width: 9.5vw;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 1px solid darkgrey;
+    margin-bottom: 15px;
+    font-size: x-small;
+    text-align: center;
+    padding: 6%;
+}
+.common__2 p{
+  font-size: 14px;
+    margin-top: 4px;
+    font-weight: 450;
+}
+.common__2 img{
+  height: 24px;
+}
+.c1
+{
+  margin: 5%;
+}
+.uni1
+{
+  margin-right: 4%;
+}
+
+.uni3
+{
+  margin-right: 4%;
+}
+.card .card-header
+{
+  display: flex;
+    justify-content: space-between;
+    align-items: end;
+    /* color: black; */
+    background: #e7e4f5;
+}
+.card-link
+{
+  display: inline-block;
+}
+.Header_row2
+{
+  font-size: 1.4rem;
+    margin-left: 2%;
+    margin-top: 1%;
+}
